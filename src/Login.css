@@ -1,0 +1,63 @@
+body {background-color: #000000;}
+.loginContainer{
+    margin: 90px 90px;
+   margin-top: 10rem;
+   margin-right: 60rem;
+   height: 100%;
+   width: 22%;
+   background: white;
+   border-radius:5px ;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border: 10px;
+    
+}
+.Content {
+    padding: 50px 50px;
+    flex-direction: column;
+
+}
+.Text h2{
+    margin-top: -2rem;
+    margin-left: -2rem;
+    padding-right: 30px;
+    
+}
+.FirstInput input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -20px;
+    border: 1px solid rgb(121, 120, 120);
+}
+.FirstInput{
+    margin-top: 25px;
+}
+.SecondInput input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -20px;
+    border: 1px solid rgb(121, 120, 120);
+}
+.SecondInput{
+    margin-top: 24px;
+    
+}
+.Button button{
+    width: 110%;
+    padding: 9px 25px;
+    margin-left: -20px;
+    border:none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.Button{
+    margin-top: 40px;
+    
+    
+
+}
