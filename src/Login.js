@@ -1,5 +1,9 @@
 import React from 'react'
 import './Login.css'
+import GoogleIcon from '@mui/icons-material/Google';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Login() {
   return (
@@ -21,8 +25,26 @@ function Login() {
         <text>Forget Password?</text>
             <button>Login</button>
         </div>
-        <p>------------OR-----------</p>
-
+        <div className='text'>
+       <text>OR</text>
+       </div>
+       <div className='string'>
+        <text>join saasguru with your favorite social media account</text>
+       </div>
+       <div className='LogoIcon'>
+       <div className='google'>
+       <GoogleIcon />
+       </div>
+       <div className='google'>
+        <InstagramIcon />
+       </div>
+       <div className='google'>
+        <FacebookIcon />
+       </div>
+       <div className='google'>
+        <LinkedInIcon />
+       </div>
+        </div>
         </div>
         </div>
     </div>

@@ -1,17 +1,23 @@
-body {background-color: #000000;}
+body {background-color: #000000;
+    background: url("image/1769054.gif");
+    background-size:contain;
+    background-position:top;
+    background: cover;
+}
 .loginContainer{
     margin: 90px 90px;
-   margin-top: 10rem;
+   margin-top: 5rem;
    margin-right: 60rem;
    height: 100%;
    width: 22%;
    background: white;
-   border-radius:5px ;
+   border-radius:8px ;
    height: fit-content;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    border: 10px;
+   font-family: 'Inter', sans-serif;;
     
 }
 .Content {
@@ -23,7 +29,7 @@ body {background-color: #000000;}
     margin-top: -2rem;
     margin-left: -2rem;
     padding-right: 30px;
-    
+
 }
 .FirstInput input{
     padding: 10px;
@@ -35,6 +41,10 @@ body {background-color: #000000;}
 .FirstInput{
     margin-top: 25px;
 }
+.FirstInput text{
+    font-size: 13px;
+    margin-left: -12px;
+}
 .SecondInput input{
     padding: 10px;
     border-radius: 5px;
@@ -43,8 +53,12 @@ body {background-color: #000000;}
     border: 1px solid rgb(121, 120, 120);
 }
 .SecondInput{
-    margin-top: 24px;
+    margin-top: 20px;
     
+}
+.SecondInput text{
+    font-size: 13px;
+    margin-left: -13px;
 }
 .Button button{
     width: 110%;
@@ -56,8 +70,38 @@ body {background-color: #000000;}
     color: white;
 }
 .Button{
-    margin-top: 40px;
-    
-    
+    margin-top: 20px;
 
+}
+.Button text{
+    margin-left: 90px;
+    display: flex;
+    padding-bottom: 12px;
+    font-size:11.5px;
+}
+.text text{
+    color: rgb(138, 133, 133);
+    margin-left: 75px;          
+    display: flex;
+    margin-top: 17px;
+    font-size: 15px;
+}   
+
+.string text{
+    font-size: 14px;
+
+}
+.string{
+    margin: 20px -.5px;
+    padding-left:-10px;
+}
+.LogoIcon{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    border: 2px 50px;
+
+}.google{
+   width: 20px;
+    padding-right: 20px;
 }
