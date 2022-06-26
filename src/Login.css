@@ -1,107 +1,121 @@
-body {background-color: #000000;
-    background: url("image/1769054.gif");
-    background-size:contain;
-    background-position:top;
-    background: cover;
-}
-.loginContainer{
-    margin: 90px 90px;
-   margin-top: 5rem;
-   margin-right: 60rem;
-   height: 100%;
-   width: 22%;
-   background: white;
-   border-radius:8px ;
-   height: fit-content;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   border: 10px;
-   font-family: 'Inter', sans-serif;;
-    
-}
-.Content {
-    padding: 50px 50px;
-    flex-direction: column;
+body {
+    background-image: url('image/pexels-abdullah-ghatasheh-1631677.jpg');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
-.Text h2{
+
+.LoginPage {
+
+    padding: 50px 50px;
+
+}
+
+.LoginContanier {
+    background-color: white;
+    height: fit-content;
+    height: 100%;
+    border: 10px;
+    margin-top: 5rem;
+    margin: 12rem 35rem;
+    width: 22%;
+    margin-right: 60rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+.UpperText h2 {
     margin-top: -2rem;
     margin-left: -2rem;
     padding-right: 30px;
-
 }
-.FirstInput input{
+
+.FirstInput text {
+    font-size: 13px;
+    margin-left: -16px;
+}
+
+.FirstInput input {
     padding: 10px;
     border-radius: 5px;
     width: 100%;
     margin-left: -20px;
-    border: 1px solid rgb(121, 120, 120);
+    border: 1px solid rgb(95, 91, 91);
 }
-.FirstInput{
+
+.SecondInput text {
+    font-size: 13px;
+    margin-left: -18px;
+
+}
+
+.SecondInput input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -20px;
+    border: 1px solid rgb(95, 91, 91);
+}
+
+.FirstInput {
     margin-top: 25px;
 }
-.FirstInput text{
-    font-size: 13px;
-    margin-left: -12px;
-}
-.SecondInput input{
-    padding: 10px;
-    border-radius: 5px;
-    width: 100%;
-    margin-left: -20px;
-    border: 1px solid rgb(121, 120, 120);
-}
-.SecondInput{
+
+.SecondInput {
     margin-top: 20px;
-    
 }
-.SecondInput text{
-    font-size: 13px;
-    margin-left: -13px;
-}
-.Button button{
+
+.button {}
+
+.button button {
     width: 110%;
     padding: 9px 25px;
-    margin-left: -20px;
-    border:none;
-    border-radius: 4px;
+    border: none;
     background-color: black;
     color: white;
+    margin-left: -20px;
+    border-radius: 5px;
 }
-.Button{
-    margin-top: 20px;
+
+.button {
+    margin-top: 9px;
+}
+
+.buttontext {
+    padding: 20px 0px;
 
 }
-.Button text{
-    margin-left: 90px;
-    display: flex;
-    padding-bottom: 12px;
-    font-size:11.5px;
-}
-.text text{
-    color: rgb(138, 133, 133);
-    margin-left: 75px;          
-    display: flex;
-    margin-top: 17px;
-    font-size: 15px;
-}   
 
-.string text{
-    font-size: 14px;
+.buttontext text {
+    margin-left: 95px;
+}
 
+.OrText {
+    color: rgb(94, 92, 92);
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 20px;
 }
-.string{
-    margin: 20px -.5px;
-    padding-left:-10px;
-}
-.LogoIcon{
-    display: flex;
-    float: left;
+
+.AllImage img {
+    width: 20%;
     justify-content: space-between;
-    border: 2px 50px;
+    float: left;
+    padding: 0px 0px;
+}
 
-}.google{
-   width: 20px;
-    padding-right: 20px;
+.LogoImage1 img {}
+
+img {
+    margin-left: 5px;
+    /* Horizontal Space */
+    margin-top: 20px;
+    
 }
