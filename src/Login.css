@@ -1,5 +1,5 @@
 body {
-    background-image: url('image/pexels-abdullah-ghatasheh-1631677.jpg');
+    background-image: url('image/1769054.gif');
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,12 +18,12 @@ body {
     height: 100%;
     border: 10px;
     margin-top: 5rem;
-    margin: 12rem 35rem;
-    width: 22%;
+    margin: 5rem 33rem;
+    width: 23%;
     margin-right: 60rem;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
+    border-radius: 20px;
     justify-content: center;
     display: flex;
 
