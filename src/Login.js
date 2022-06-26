@@ -21,6 +21,7 @@ function Login() {
                         <text>Forget Password?</text>
                     </div>
                     <button>Login</button>
+                    <text className='Text2'>Sign In?</text>
                 </div>
                 <div className='OrText'>
                     <text>------ OR -----</text>
