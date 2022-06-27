@@ -1,5 +1,5 @@
 body {
-    background-image: url('image/1769054.gif');
+    background-image: url('image/pexels-abdullah-ghatasheh-1631677.jpg');
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
     height: 100%;
     border: 10px;
     margin-top: 5rem;
-    margin: 4rem 33rem;
+    margin: 7rem 33rem;
     width: 23%;
     margin-right: 60rem;
     display: flex;
@@ -40,7 +40,7 @@ font-family: 'Inter', sans-serif;
 .UpperText h2 {
     margin-top: -2rem;
     margin-left: -2rem;
-    padding-right: 30px;
+    padding-right: 35px;
 }
 
 .FirstInput text {
@@ -100,7 +100,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .buttontext text {
-    margin-left: 80px;
+    margin-left: 105px;
 }
 
 .OrText {
@@ -111,7 +111,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .AllImage img {
-    width: 19%;
+    width: 15%;
     justify-content: space-between;
     float: left;
     padding: 0px 0px;
@@ -130,10 +130,9 @@ font-family: 'Inter', sans-serif;
     margin-bottom:5px;
     margin-left: -20px;
     margin-left: 3px;
-    margin-right: 6px;
-   border-radius: 5px;
-   border: 1px solid rgb(73, 72, 72);
-   border-width:1px ;
+    margin-right:12px;
+   
+   
  
 
 }
